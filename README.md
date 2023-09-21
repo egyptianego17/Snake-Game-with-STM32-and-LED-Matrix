@@ -9,7 +9,6 @@ Welcome to my Mini-Project! In this README, we'll take a closer look at the tech
 4. [Implementation](#implementation)
 5. [Software Components](#software-components)
 6. [Key Functions](#key-functions)
-7. [Technical Challenges](#technical-challenges)
 
 ## Introduction
 The Snake Game on LED Matrix is a fusion of hardware and software, where an 8x8 LED matrix becomes the playground for a classic Snake game. Controlled by external buttons, the game challenges players to navigate a snake to eat food, grow longer, and avoid collisions.
