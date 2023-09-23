@@ -70,11 +70,12 @@ When a collision occurs (with the walls or itself), the game ends. A "Game Over"
 The software components play a crucial role in driving the functionality of the Snake Game on LED Matrix. These components include:
 
 - `RCC_Interface.h`: Provides functions for controlling the microcontroller's clock settings.
-- `GPIO_Interface.h`: Offers GPIO manipulation functions for interfacing with external buttons.
+- `GPIO_Interface.h`: Offers GPIO configuration functions for interfacing with other components.
 - `SysTick_Interface.h`: Manages the system tick timer for timing and delays.
 - `NVIC_Interface.h`: Handles interrupt controller configuration.
 - `EXTI_Interface.h`: Manages external interrupts.
 - `LEDMTRX_Interface.h`: Interfaces with the LED matrix for display control.
+- `STP.h`: Facilitates communication with the Serial to Parallel IC (STP), enables you to use LED Matrix with less number of pins.
 - `CHARACTERS.h`: Contains character data for rendering text on the LED matrix.
 
 ## Key Functions
@@ -114,6 +115,4 @@ The game's core logic and mechanics are driven by these essential functions:
 
 - `restart()`: When the game ends, this function clears the existing snake and initializes a new game, allowing the player to try again.
 
-Understanding the intricacies of these functions opens up a world of possibilities for learning, experimentation, and even extending the game's features. Dive into the code and explore how these functions come together to create a classic game with a modern twist.
-
-Thank you for delving into the detailed functionality of the Snake Game on LED Matrix project. Enjoy exploring and tinkering with the code to uncover the secrets behind this tech-savvy recreation of a timeless classic!
+Thank you, Enjoy exploring and tinkering with the code to uncover the secrets behind this tech-savvy recreation of a timeless classic!
